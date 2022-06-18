@@ -51,7 +51,7 @@ h4 {
 }
 /**Tamaño imagenes **/
 img {
-    max-width: 100%;
+    width: 100%;
 }
 /** Utilidades **/
 .no-margin {
@@ -132,7 +132,7 @@ img {
     width: 400px;
     margin: 0 auto;
 }
-
+/** Footer**/
 .footer{
     background-color:var(--dorado); 
     padding: rem 0;
@@ -141,4 +141,48 @@ img {
  .footer__texto{
     text-align: center;
     color: var(--primario);
+    }
+    /** Grid **/
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    @media (min-width:768px){
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+    
+        }
+    }
+    /**Instituciones**/
+    .institucion {
+        background-color: var(--dorado);
+        padding: 1rem;
+    }
+    .institucion:hover {
+        background-color: var(--Blanco);
+    }
+
+    .institucion__texto {
+        font-family: var(--fuenteNanum);
+        margin: 2rem 0;
+        text-align: center;
+        line-height: 1
+    }
+    .institucion__nombre {
+        font-size: 4rem;
+        color: var(--Negro);
+    }
+    .instiutcion__info {
+        font-size: 2.5rem;
+        color: var(--primario);
+    }
+
+    /** titutlos **/
+    .titulo {
+        background-color: var(--dorado);
+        text-align: center;
+        color: var(--primario);
     }
