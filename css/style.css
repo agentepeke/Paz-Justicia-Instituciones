@@ -156,7 +156,29 @@ img {
     
         }
     }
+
+    footer a {
+        float: right;
+        transition: color 0.3s ease;
+        color: #fff;
+        text-decoration: none;
+    
+    }
+    
+    footer a:hover {
+        color: cornflowerblue;
+    }
+
     /**Instituciones**/
+    main div{
+        transition: all 0.3s ease;
+    }
+
+    main div:hover {
+        box-shadow: 0 0.1rem 0.4rem rgba(255, 254, 254, 0.43);
+    
+    }    
+
     .institucion {
         background-color: var(--dorado);
         padding: 1rem;
@@ -186,3 +208,5 @@ img {
         text-align: center;
         color: var(--primario);
     }
+
+    
