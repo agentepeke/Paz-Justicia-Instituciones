@@ -51,7 +51,7 @@ h4 {
 }
 /**Tamaño imagenes **/
 img {
-    width: 100%;
+    width: 50%;
 }
 /** Utilidades **/
 .no-margin {
@@ -109,6 +109,13 @@ img {
     text-align: center;
     font-size: 2rem;
     color: var(--Blanco);
+    flex-basis: calc(33.3% - 1rem);
+}
+.navegacion__enlace__principal {
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    color:  rgb(233, 178, 39);
     flex-basis: calc(33.3% - 1rem);
 }
 .navegacion__enlace--activo,
@@ -272,7 +279,7 @@ img {
 
  /**PAGINA INICIALIZAR **/
     .Iniciar{
-        background: whitesmoke;
+        background: var(--primario);
     }
     
 .container{
@@ -291,27 +298,23 @@ img {
 
 .text1 {
     color:rgb(218, 165, 32);
-    font-size: 60px;
+    font-size: 90px;
     font-weight: 700;
     letter-spacing: 8px;
-    margin-bottom: 20px;
-    background-color: var(--primario);
+    margin-bottom: 28px;
+    background-color: white;
     position: relative;
     animation: text 3s 1;
 }
 
 .text2 {  
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(233, 178, 39);
-}
-
-.Enlazar {
-    color:rgb(233, 178, 39);
 }
 
 @keyframes text {
     0% {
-        color: white;
+        color: var(--primario);
         margin-bottom: -40px;
     }
     30%{
