@@ -114,26 +114,16 @@ img {
     color: var(--Blanco);
     flex-basis: calc(33.3% - 1rem);
 }
+.navegacion__enlace__iniciar {
+    display:block;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primario);
+    flex-basis: calc(33.3% - 1rem);
+}
 .navegacion__enlace--activo,
 .navegacion__enlace:hover {
     color: var(--dorado);
-}
-.art__title{
-    color: var(--dorado)
-}
-
-.article__texto{
-    text-align: left;
-    color: var(--Blanco);
-}
-
-.art2__title{
-    color: var(--dorado)
-}
-
-.article2{
-    width: 400px;
-    margin: 0 auto;
 }
 /** Footer**/
 .footer {
@@ -168,6 +158,29 @@ img {
     
     footer a:hover {
         color: cornflowerblue;
+    }
+    /*Clase de la principal*/
+
+    .container {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    section article {
+        transition: all 0.3s ease;
+        margin: 1rem 0;
+        border-radius: 0.5rem;
+        padding: 0.25rem 0;
+        cursor: pointer;
+    }
+
+    section article:hover {
+        box-shadow: 0 0.1rem 0.4rem rgba(251, 251, 250, 0.3);
+    }
+
+    section article h2, section article p {
+        text-align: justify;
+        margin: 1rem;
     }
 
     /**Instituciones**/
@@ -296,7 +309,7 @@ color:rgb(218, 165, 32);
 font-size: 90px;
 font-weight: 700;
 letter-spacing: 8px;
-margin-bottom: 28px;
+margin-bottom: 20px;
 background-color: white;
 position: relative;
 animation: text 3s 1;
@@ -315,11 +328,11 @@ color: rgb(233, 178, 39);
 30%{
     color: burlywood;
     letter-spacing: 25px;
-    margin-bottom: -40px;
+    margin-bottom: -50px;
 }
 85% {
     letter-spacing: 8px;
-    margin-bottom: -40px;
+    margin-bottom: -60px;
 }
 }
 
