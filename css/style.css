@@ -114,13 +114,6 @@ img {
     color: var(--Blanco);
     flex-basis: calc(33.3% - 1rem);
 }
-.navegacion__enlace__iniciar {
-    display:block;
-    text-align: center;
-    font-size: 2rem;
-    color: var(--primario);
-    flex-basis: calc(33.3% - 1rem);
-}
 .navegacion__enlace--activo,
 .navegacion__enlace:hover {
     color: var(--dorado);
@@ -161,8 +154,8 @@ img {
     }
     /*Clase de la principal*/
 
-    .container {
-        width: 600px;
+    .container2 {
+        width: 950px;
         margin: 0 auto;
     }
 

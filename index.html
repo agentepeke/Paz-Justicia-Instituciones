@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -30,24 +31,27 @@
      </div>
     </header>
 
-<!--Es una prueba nada mas-->
+
 <main class="contenedor">
-    <h1 class="titulo"> Principal</h1>
+    <h1 class="titulo" data-aos="fade-right" data-aos-offset="300"
+    data-aos-easing="ease-in-sine"> Principal</h1>
 <section class="container2">
-    <article class="post">
+    <article class="post" data-aos="fade-up"
+    data-aos-duration="2000">
         <h1>La Justicia es de todos</h1>
         <p>La Justicia es uno de esos ideales que desde la Antigua Grecia ha sido estudiado y debatido por cualquier
              intelectual de prestigio. Definida como “aquel principio moral que inclina a obrar y juzgar respetando la verdad y dando a cada uno lo que le corresponde”, la Justicia es, pues, un principio ineludible que debería regir nuestras sociedades.
              Si la justicia existe, tiene que ser para todos; nadie puede quedar excluido, de lo contrario ya no sería justícia. (Paul Auster)</p>
-            <img src="img/Justice.jpg"/>
+            <img src="img/Justice.jpg"  width="500"/>
         </article>
 
-        <article class="post">
+        <article class="post" data-aos="fade-up"
+        data-aos-duration="2000">
         <h2>Merecian justicia</h2>
         <p>La Justicia es uno de esos ideales que desde la Antigua Grecia ha sido estudiado y debatido por cualquier
              intelectual de prestigio. Definida como “aquel principio moral que inclina a obrar y juzgar respetando la verdad y dando a cada uno lo que le corresponde”, la Justicia es, pues, un principio ineludible que debería regir nuestras sociedades.
              Si la justicia existe, tiene que ser para todos; nadie puede quedar excluido, de lo contrario ya no sería justícia. (Paul Auster)</p>
-             <img src="img/paz.jpg"/>
+             <img src="img/paz.jpg"  width="500"/>
         </article>
         
        <!--  <article class="article2">
@@ -56,6 +60,12 @@
             </article>
 </section>
 </main>  
+<!--prueba -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+  <!--Prueba-->
     <footer class="footer">
         <p class="footer__texto">Derechos de Autor autorizado </p>
         <a href="#titulo">Ir al comienzo</a>
