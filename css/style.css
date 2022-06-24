@@ -287,7 +287,12 @@ img {
 
  /**PAGINA INICIALIZAR **/
  .Iniciar{
-    background: var(--primario);
+    background-image: url(../img/Agenda.jpg);
+    height: 70rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
 }
 
 .container{
@@ -306,18 +311,18 @@ display: block;
 
 .text1 {
 color:rgb(218, 165, 32);
-font-size: 90px;
+font-size: 80px;
 font-weight: 700;
 letter-spacing: 8px;
 margin-bottom: 20px;
-background-color: white;
+background-color: var(--primario);
 position: relative;
 animation: text 3s 1;
 }
 
 .text2 {  
 font-size: 30px;
-color: rgb(233, 178, 39);
+color: var(--primario);
 }
 
 @keyframes text {
@@ -328,12 +333,20 @@ color: rgb(233, 178, 39);
 30%{
     color: burlywood;
     letter-spacing: 25px;
-    margin-bottom: -50px;
+    margin-bottom: -40px;
 }
 85% {
     letter-spacing: 8px;
-    margin-bottom: -60px;
+    margin-bottom: -50px;
 }
+}
+
+.bloque__img2 {
+
+    border-radius: 50%;
+    justify-content: center;
+    width: 20%;
+    padding: 3.5rem;
 }
 
 /** Paginas de instituciones**/
