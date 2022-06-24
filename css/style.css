@@ -205,8 +205,9 @@ img {
     /*Clase de la principal*/
 
     .container2 {
-        width: 950px;
-        margin: 0 auto;
+     max-width: 90rem;
+    margin: 0 auto;
+    padding: 1rem;
     }
 
     section article {
