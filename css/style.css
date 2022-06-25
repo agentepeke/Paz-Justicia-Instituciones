@@ -225,7 +225,7 @@ img {
     /*Clase de la principal*/
 
     .container2 {
-     max-width: 90rem;
+     max-width: 120rem;
     margin: 0 auto;
     padding: 1rem;
     }
@@ -307,7 +307,7 @@ img {
     }
     /* Contacto */
 .contacto-bg {
-    background-image: url(../img/Pruba.jpg);
+    background-image: url(../img/Pruba.png);
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -337,7 +337,7 @@ img {
     height: 20rem;
 }
 
- /**PAGINA INICIALIZAR **/
+ /**PAGINA al INICIAR **/
  .Iniciar{
     background-image: url(../img/Agenda.jpg);
     height: 70rem;
@@ -397,7 +397,7 @@ color: var(--primario);
 
     border-radius: 50%;
     justify-content: center;
-    width: 300px;
+    width: 250px;
     padding: 3.5rem;
 }
 
