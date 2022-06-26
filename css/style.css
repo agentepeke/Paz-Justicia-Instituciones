@@ -384,6 +384,11 @@ text-transform: uppercase;
 display: block;
 }
 
+[data-aos^="fade"][data-aos^="fade"] {
+    opacity: 1;
+    transition-property: opacity, transform;
+}
+
 .text1 {
 color:rgb(218, 165, 32);
 font-size: 80px;
@@ -394,11 +399,21 @@ background-color: var(--primario);
 position: relative;
 animation: text 3s 1;
 }
-
+@media (max-width:550px){
+    .text1{
+        font-size: 2rem;
+    }
+}
 .text2 {  
 font-size: 30px;
 color: var(--primario);
 }
+@media (max-width:550px){
+    .text2{
+        font-size: 1.3rem;
+    }
+}
+
 
 @keyframes text {
 0% {
@@ -419,7 +434,7 @@ color: var(--primario);
 .bloque__img2 {
     border-radius: 50%;
     justify-content: center;
-    width: 250px;
+    width: 200px;
     padding: 3.5rem;
 }
 
@@ -469,3 +484,4 @@ color: var(--primario);
     padding: 3.5rem;
     }
 }
+
