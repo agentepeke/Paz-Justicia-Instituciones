@@ -62,4 +62,6 @@ Promote peaceful and inclusive societies for sustainable development, facilitate
 ## Página
 [Link](https://paz-justica-e-instiruciones.netlify.app/)
 
+## Wiki del repositorio
+[Link](https://github.com/agentepeke/Paz-Justicia-Instituciones/wiki)
 <p align="right">(<a href="#top">Regreso al inicio</a>)</p>
