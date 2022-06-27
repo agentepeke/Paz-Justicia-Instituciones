@@ -31,10 +31,11 @@ https://drive.google.com/file/d/1cMCiA8k6UNp_CrQhWBWQFscLKsTsmLHo/view?usp=shari
 ## Sobre el Proyecto
 <p>Es un proyecto sobre una pagina de los Objetivos de la Agenda de Desarrollo Sostenible de la ONU. Es mas que todo una pagina informativa donde esta explicado este objetico el cual es el numero 16, además de algunas instituciones que se pueden relacionar con este. El cual las herramientas fueron de mucha ayuda con la realizacion de este proyecto y tambien fue de gran ayuda entender lo que fue trabajar con estos pues son herramientas que tienen diferentes funciones y ademas que tienen diferentes herramientas que son facil al interactuar.   </p>
 <p>It is a project on a page of the Goals of the UN Sustainable Development Agenda. It is more than all an informative page where this objective is explained, which is number 16, in addition to some institutions that can be related to it. Which tools were very helpful with the realization of this project and it was also very helpful to understand what it was like to work with these because they are tools that have different functions and also have different tools that are easy to interact with.</p>
+
 #### Frameworks:
 <div>
 <img src="img/css.jpg" width="200">
-  <img src="img/ht-mg.jpg" width="200">
+ <img src="img/ht-mg.jpg" width="200">
 </div>
 
 #### IDE y Herramientas:
