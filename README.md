@@ -10,9 +10,6 @@ Welcome to the repository where the project made in HTML will be saved.
 
 # HackFest 2022 URL Xela 
 
-<!-- Tabla de contenidos -->
-
-
 ## Grupo
 <h1>FLMB</h1>
 
